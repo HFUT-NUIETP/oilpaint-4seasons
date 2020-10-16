@@ -57,4 +57,4 @@ A flask interface for front-end scheduling is also given in ```interface.py```.
 
 **[1]** Zhu, Jun-Yan, et al. "Unpaired image-to-image translation using cycle-consistent adversarial networks." *Proceedings of the IEEE international conference on computer vision*. 2017.
 
-**[2]** [CycleGan-Tensorflow_vanhuyz](Zhu, Jun-Yan, et al. "Unpaired image-to-image translation using cycle-consistent adversarial networks." *Proceedings of the IEEE international conference on computer vision*. 2017.)
+**[2]** [CycleGan-Tensorflow_vanhuyz](https://github.com/vanhuyz/CycleGAN-TensorFlow)
