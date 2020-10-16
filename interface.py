@@ -5,7 +5,10 @@ app = Flask(__name__)
 
 @app.route('/demo', method = ['POST'])
 def demo(img, model):
-    img_ori = base64.b64decode(img, txt)
+	# img - base64-encoded image
+	# model - '0' for winter to summer
+	# model - '1' for summer to winter
+    img_ori = base64.b64decode(img)
     with open('./input/input.jpg', 'wb') as f:
         f.write(img_ori)
     if model == 0:
